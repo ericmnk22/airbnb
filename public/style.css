@@ -1,0 +1,120 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+nav{
+    height: 70px;
+    width: 100%;
+    background: #FFFFFF;
+    display: flex;
+    align-items: center;
+    box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+}
+
+nav img{
+    margin-left: 30px;
+}
+
+.hero{
+    width: 100%;
+}
+
+.hero-image-container{
+    margin: 0 auto;
+    display: flex;
+}
+
+.Hero-Img{
+    margin: 0 auto;
+}
+
+.hero-title{
+    margin-left: 33px;
+    font-weight: 600;
+    font-style: normal;
+    margin-top: 12px;
+}
+
+.hero-description{
+    width: 320px;
+    margin-left: 33px;
+    font-style: normal;
+    font-size: 17px;
+    font-weight: 300;
+}
+
+.card-container{
+    margin-left: 33px;
+    height: 430px;
+    display: inline-block;
+    
+    /* background: blue; */
+}
+
+.image-container{
+    height: 300px;
+    display: flex;
+}
+
+.review-image{
+    height: 100%;
+}
+
+.review-status{
+    position: absolute;
+    text-align: center;
+    border-radius: 2px;
+    padding: 6px;
+    background: white;
+    margin-top: 9px;
+    margin-left: 9px;
+    font-family: Poppins;
+    font-size: 10.24px;
+    text-transform: uppercase;
+    font-style: normal;
+    font-weight: normal;
+} 
+
+.review-bottom{
+    height: 98px;
+    /* background: yellow; */
+    margin-top: 7px;
+}
+
+.review-star{
+    width: 12px;
+}
+
+.review-score{
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 300;
+    color: #222222;
+}
+
+.review-country{
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 300;
+    color: #918E9B;;
+}
+
+.review-description{
+    margin-top: 3px;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 300;
+    color: #222222;
+}
+
+.review-price{
+    margin-top: 0px;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+}
